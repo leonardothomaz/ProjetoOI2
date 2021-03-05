@@ -140,9 +140,9 @@ Essas foram as tecnologias e ferramentas utilizadas no desenvolvimento do projet
 - [React](https://pt-br.reactjs.org/).
 - [Express](https://expressjs.com/).
 - [Figma](https://www.figma.com/).
-- [Postgre](https://github.com/LINK).
-- [typeORM](https://github.com/LINK).
-- [JWT](https://github.com/LINK).
+- [Postgre](https://www.postgresql.org/).
+- [typeORM](https://typeorm.io/#/).
+- [JWT](https://jwt.io/).
 
 <!-- TESTES AUTOMATIZADOS
 - [Jest](https://github.com/LINK). -->
