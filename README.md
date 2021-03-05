@@ -73,14 +73,14 @@ I already used and recommend these text editors:
 >> $ cd back-end
 >>
 >># Instale as dependências.
->>$ yarn install
+>>$ yarn
 >>#ou.
 >>$ npm install
 >>
 >># Inicia o servidor da API.
->>$ yarn dev
+>>$ yarn dev:server
 >>#or.
->>$ npm dev
+>>$ npm run dev:server
 >>
 >># O servidor do backend irá ouvir na porta: 3333.
 >># Faça as requisições em http://localhost:3333.
@@ -140,19 +140,12 @@ Essas foram as tecnologias e ferramentas utilizadas no desenvolvimento do projet
 - [React](https://pt-br.reactjs.org/).
 - [Express](https://expressjs.com/).
 - [Figma](https://www.figma.com/).
-
-<!-- BANCO DE DADOS -->
-<!-- - [SQLite](https://www.sqlite.org/index.html).
-- [Postgre](https://github.com/LINK). -->
-
-<!-- ORM
-- [typeORM](https://github.com/LINK). -->
+- [Postgre](https://github.com/LINK).
+- [typeORM](https://github.com/LINK).
+- [JWT](https://github.com/LINK).
 
 <!-- TESTES AUTOMATIZADOS
 - [Jest](https://github.com/LINK). -->
-
-<!-- AUTENTICAÇÃO
-- [JWT](https://github.com/LINK). -->
 
 <!-- MOBILE -->
 <!-- - [React Native](https://reactnative.dev/).
