@@ -179,7 +179,7 @@ This project is under [MIT](https://github.com/leonardothomaz/ProjetoOI2/LICENSE
             <img src="https://img.shields.io/badge/GitHub-bremmm-6f42c1?logo=github"/>
         </a>
         <a alt="JOSE" href="https://www.linkedin.com/in/otaviobrm">
-            <img src="https://img.shields.io/badge/LinkedIn-JOSE%20JOSE-blue?logo=linkedin"/>
+            <img src="https://img.shields.io/badge/LinkedIn-José%20Otávio%20Bremm-blue?logo=linkedin"/>
         </a>
     </div>
     <div>
@@ -194,8 +194,8 @@ This project is under [MIT](https://github.com/leonardothomaz/ProjetoOI2/LICENSE
         <a href="https://github.com/Ltrizzini" margin="10px">
             <img src="https://img.shields.io/badge/GitHub-Ltrizzini-6f42c1?logo=github"/>
         </a>
-        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/LUCAS">
-            <img src="https://img.shields.io/badge/LinkedIn-LUCAS%20LUCAS-blue?logo=linkedin"/>
+        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/lucas-trizzini-b8a127150">
+            <img src="https://img.shields.io/badge/LinkedIn-Lucas%20Trizzini-blue?logo=linkedin"/>
         </a>
     </div>
 </h2>
