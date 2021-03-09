@@ -42,14 +42,15 @@ Para testar ou utilizar esse projeto, por favor instale esses itens:
 
 - [Git](https://git-scm.com).
 - [Node.js](https://nodejs.org/en/).
-<!-- - [Expo](https://expo.io/). -->
 - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/).
 
-<!-- Use your prefered text editor or IDE to study/change.
-I already used and recommend these text editors:
+<!-- MOBILE
+- [Expo](https://expo.io/). -->
+
+Use seu editor de texto preferido ou IDE para estudar, ler ou modificar o projeto
+Esses foram os editores utilizados.
 - [VSCode](https://code.visualstudio.com/).
-- [Sublime Text](https://www.sublimetext.com/).
-- [VIM](https://www.vim.org/). -->
+- [Nano](https://www.nano-editor.org/).
 
 ---
 
@@ -73,14 +74,14 @@ I already used and recommend these text editors:
 >> $ cd back-end
 >>
 >># Instale as dependências.
->>$ yarn install
+>>$ yarn
 >>#ou.
 >>$ npm install
 >>
 >># Inicia o servidor da API.
->>$ yarn dev
+>>$ yarn dev:server
 >>#or.
->>$ npm dev
+>>$ npm run dev:server
 >>
 >># O servidor do backend irá ouvir na porta: 3333.
 >># Faça as requisições em http://localhost:3333.
@@ -140,33 +141,26 @@ Essas foram as tecnologias e ferramentas utilizadas no desenvolvimento do projet
 - [React](https://pt-br.reactjs.org/).
 - [Express](https://expressjs.com/).
 - [Figma](https://www.figma.com/).
+- [Postgre](https://www.postgresql.org/).
+- [typeORM](https://typeorm.io/#/).
+- [JWT](https://jwt.io/).
+- [Jest](https://jestjs.io/).
+- [Supertest](https://www.npmjs.com/package/supertest).
 
-<!-- BANCO DE DADOS -->
-<!-- - [SQLite](https://www.sqlite.org/index.html).
-- [Postgre](https://github.com/LINK). -->
-
-<!-- ORM
-- [typeORM](https://github.com/LINK). -->
-
-<!-- TESTES AUTOMATIZADOS
-- [Jest](https://github.com/LINK). -->
-
-<!-- AUTENTICAÇÃO
-- [JWT](https://github.com/LINK). -->
+<!-- JOSE
+- [typeform](https://github.com/LINK). -->
 
 <!-- MOBILE -->
 <!-- - [React Native](https://reactnative.dev/).
 - [Expo](https://expo.io/). -->
 
-<!-- JOSE
-- [typeform](https://github.com/LINK). -->
 ---
 
-<!-- <h2 id="licenca">
+<h2 id="licenca">
     📝 Licença 
 </h2>
 
-This project is under [MIT](https://github.com/FelipePardim/happy/LICENSE.md) licensce. -->
+This project is under [MIT](https://github.com/leonardothomaz/ProjetoOI2/LICENSE.md) licensce.
 
 ---
 
@@ -180,14 +174,14 @@ This project is under [MIT](https://github.com/FelipePardim/happy/LICENSE.md) li
             <img src="https://img.shields.io/badge/LinkedIn-Felipe%20Pardim-blue?logo=linkedin"/>
         </a>
     </div>
-    <!-- <div>
-        <a href="https://github.com/LINK" margin="10px">
-            <img src="https://img.shields.io/badge/GitHub-JOSE-6f42c1?logo=github"/>
+    <div>
+        <a href="https://github.com/bremmm" margin="10px">
+            <img src="https://img.shields.io/badge/GitHub-bremmm-6f42c1?logo=github"/>
         </a>
-        <a alt="JOSE" href="https://github.com/LINK">
-            <img src="https://img.shields.io/badge/LinkedIn-JOSE%20JOSE-blue?logo=linkedin"/>
+        <a alt="JOSE" href="https://www.linkedin.com/in/otaviobrm">
+            <img src="https://img.shields.io/badge/LinkedIn-José%20Otávio%20Bremm-blue?logo=linkedin"/>
         </a>
-    </div> -->
+    </div>
     <div>
         <a href="https://github.com/leonardothomaz" margin="10px">
             <img src="https://img.shields.io/badge/GitHub-leonardothomaz-6f42c1?logo=github"/>
@@ -196,12 +190,12 @@ This project is under [MIT](https://github.com/FelipePardim/happy/LICENSE.md) li
             <img src="https://img.shields.io/badge/LinkedIn-Leonardo%20Thomaz-blue?logo=linkedin"/>
         </a>
     </div>
-    <!-- <div>
-        <a href="https://github.com/LINK" margin="10px">
-            <img src="https://img.shields.io/badge/GitHub-LUCAS-6f42c1?logo=github"/>
+    <div>
+        <a href="https://github.com/Ltrizzini" margin="10px">
+            <img src="https://img.shields.io/badge/GitHub-Ltrizzini-6f42c1?logo=github"/>
         </a>
-        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/felipe-pardim">
-            <img src="https://img.shields.io/badge/LinkedIn-LUCAS%20LUCAS-blue?logo=linkedin"/>
+        <a alt="Felipe Pardim" href="https://www.linkedin.com/in/lucas-trizzini-b8a127150">
+            <img src="https://img.shields.io/badge/LinkedIn-Lucas%20Trizzini-blue?logo=linkedin"/>
         </a>
-    </div> -->
+    </div>
 </h2>
