@@ -109,7 +109,7 @@ Esses foram os editores utilizados.
 >># Acesse o app web em http://localhost:3000.
 >>```
 >
-><h3 id="iniciando-mobile">s
+<!-- ><h3 id="iniciando-mobile">
 >    📱 Iniciando o app ( Android & IOS ).
 ></h3>
 >
@@ -127,7 +127,7 @@ Esses foram os editores utilizados.
 >>
 >> # Conecte seu smartphone Android ou iPhone no servidor do Expo, ou use seu emulador preferido.
 >>```
->
+> -->
 ---
 
 <h2 id="tecnologias">
@@ -160,7 +160,7 @@ Essas foram as tecnologias e ferramentas utilizadas no desenvolvimento do projet
     📝 Licença 
 </h2>
 
-This project is under [MIT](https://github.com/leonardothomaz/ProjetoOI2/LICENSE.md) licensce.
+Esse projeto está sobre a licença [MIT](https://github.com/leonardothomaz/ProjetoOI2/LICENSE.md).
 
 ---
 
