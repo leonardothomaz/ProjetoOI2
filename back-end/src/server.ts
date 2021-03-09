@@ -7,9 +7,7 @@ import routes from "./routes";
 import "./database";
 import AppError from "./errors/AppError";
 
-require('dotenv-safe').config({
-  allowEmptyValues: false
-});
+require('dotenv-safe').config();
 
 const app = express();
 
