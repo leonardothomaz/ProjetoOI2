@@ -1,11 +1,13 @@
 interface PrimaryButtonProps {
-  name: string
+  nome: string
 }
 
 export function PrimaryButton(props: PrimaryButtonProps) {
   return (
-    <button type="button" className="primaryButton">
-      {props.name}
-    </button>
+    <div className="container">
+      <button type="button" className="primaryButton">
+        <span>{props.nome}</span>
+      </button>
+    </div>
   )
 }
