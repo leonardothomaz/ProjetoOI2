@@ -11,22 +11,22 @@
   --Button-blue: #2f80ed;
   --Button-blue-1: #6da6f2;
   --green: #51a495;
-  /* --greenHard: #219653
-  --grey: #A8ADB1; */
+  --greenHard: #219653;
+  --grey: #a8adb1;
   --red: #eb5757;
 }
 
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
   }
 }
 
-@media (max-width: 720) {
+@media (min-width: 720) {
   html {
-    font-size: 87.5%;
+    font-size: 150%;
   }
-}
+} */
 
 body {
   background-color: var(--background-white);
@@ -37,9 +37,22 @@ body,
 input,
 textarea,
 button {
-  font: 400 1rem 'Montserat', sans-serif;
+  font: 400 4rem 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button {
   cursor: pointer;
+}
+
+.primaryButton {
+  align-items: center;
+  background-color: var(--Button-blue);
+  font: 400 4rem 'Montserrat, sans-serif';
+  font-family: 'Montserrat', sans-serif;
+  color: var(--Text-white);
+  padding: 1rem;
+  border: none;
+  border-radius: 15mm;
+  width: 100%;
 }

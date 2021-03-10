@@ -1,7 +1,8 @@
+import { PrimaryButton } from './components/PrimaryButton'
 import './styles/global.css'
 
 function App() {
-  return <button> teste </button>
+  return <PrimaryButton name={'Criar uma conta'} />
 }
 
 export default App
