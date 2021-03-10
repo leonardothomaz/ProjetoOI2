@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-white: #fff;
+  --Text-black: #0c131a;
+  --Text-white: #e8f2fc;
+  --Button-blue: #2f80ed;
+  --Button-blue-1: #6da6f2;
+  --green: #51a495;
+  /* --greenHard: #219653
+  --grey: #A8ADB1; */
+  --red: #eb5757;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background-color: var(--background-white);
+  color: var(--Text-black);
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem 'Montserat', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
