@@ -6,8 +6,8 @@ import {
   UpdateDateColumn,
 } from "typeorm";
 
-@Entity("users")
-class User {
+@Entity("medicine")
+class Medicine {
   @PrimaryGeneratedColumn("uuid")
   id: string;
 
@@ -15,19 +15,10 @@ class User {
   name: string;
 
   @Column()
-  password: string;
+  dosage: string;
 
   @Column()
-  email: string;
-
-  @Column()
-  latitude: string;
-
-  @Column()
-  longitude: string;
-
-  @Column()
-  type: string;
+  laboratory: string;
 
   @CreateDateColumn()
   created_at: Date;
@@ -36,4 +27,4 @@ class User {
   updated_at: Date;
 }
 
-export default User;
+export default Medicine;
