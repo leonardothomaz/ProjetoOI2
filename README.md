@@ -37,10 +37,6 @@
 ### Rita: Uma aplicação que busca facilitar gerenciamento dos horários de ingestão de  medicações.
 ### Projeto desenvolvido durante a matéria de Oficina de Integração 2, curso Bach. Engenharia de Software.
 
-<!-- ## About:
-### Rita: Uma aplicação que busca facilitar gerenciamento dos horários de ingestão de  medicações.
-### Projeto desenvolvido durante a matéria de Oficina de Integração 2, curso Bach. Engenharia de Software. -->
-
 ---
 
 ## Requisitos
