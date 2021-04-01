@@ -43,9 +43,7 @@ Para testar ou utilizar esse projeto, por favor instale esses itens:
 - [Git](https://git-scm.com).
 - [Node.js](https://nodejs.org/en/).
 - [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/).
-
-<!-- MOBILE
-- [Expo](https://expo.io/). -->
+- [Expo](https://expo.io/).
 
 Use seu editor de texto preferido ou IDE para estudar, ler ou modificar o projeto
 Esses foram os editores utilizados.
@@ -109,7 +107,7 @@ Esses foram os editores utilizados.
 >># Acesse o app web em http://localhost:3000.
 >>```
 >
-<!-- ><h3 id="iniciando-mobile">
+><h3 id="iniciando-mobile">
 >    📱 Iniciando o app ( Android & IOS ).
 ></h3>
 >
@@ -127,7 +125,7 @@ Esses foram os editores utilizados.
 >>
 >> # Conecte seu smartphone Android ou iPhone no servidor do Expo, ou use seu emulador preferido.
 >>```
-> -->
+>
 ---
 
 <h2 id="tecnologias">
@@ -146,13 +144,12 @@ Essas foram as tecnologias e ferramentas utilizadas no desenvolvimento do projet
 - [JWT](https://jwt.io/).
 - [Jest](https://jestjs.io/).
 - [Supertest](https://www.npmjs.com/package/supertest).
+- [React Native](https://reactnative.dev/).
+- [Expo](https://expo.io/).
 
 <!-- JOSE
 - [typeform](https://github.com/LINK). -->
 
-<!-- MOBILE -->
-<!-- - [React Native](https://reactnative.dev/).
-- [Expo](https://expo.io/). -->
 
 ---
 
