@@ -10,9 +10,15 @@ export default {
   username: process.env.db_username,
   password: process.env.db_password,
   database: process.env.db_database,
-  entities: [`./src/models/*.${compiled ? "js" : "ts"}`],
-  migrations: [`./src/database/migrations/*.${compiled ? "js" : "ts"}`],
+  entities: [
+    `./${compiled ? "dist" : "src"}/models/*.${compiled ? "js" : "ts"}`,
+  ],
+  migrations: [
+    `./${compiled ? "dist" : "src"}/database/migrations/*.${
+      compiled ? "js" : "ts"
+    }`,
+  ],
   cli: {
-    migrationsDir: "./src/database/migrations/",
+    migrationsDir: `./${compiled ? "dist" : "src"}/database/migrations/`,
   },
 } as ConnectionOptions;
