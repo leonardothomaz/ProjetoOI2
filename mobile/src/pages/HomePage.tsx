@@ -1,7 +1,7 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
-import Button from "../components/Button";
+import MyButton from "../components/Button";
 import MedicineCard from "../components/MedicineCard";
 
 import { Feather } from "@expo/vector-icons";
@@ -20,16 +20,20 @@ export default function HomePage() {
             <MedicineCard medicineName="Dipirona" medicineHour="15:00" />
             <MedicineCard medicineName="UN" medicineHour="02:00" />
 
-            <Button
+            <MyButton
                 buttonText="Adicionar medicação"
                 buttonColor="blue"
                 targetPage="AddMedicine"
             />
 
-            <Button
+            <MyButton
                 buttonText={<Feather name="map" color="#333" size={40} />}
                 targetPage="Map"
             />
+
+            <TouchableOpacity onPress={() => ({})}>
+                <Feather name="menu" color="#333" size={40} />
+            </TouchableOpacity>
         </View>
     );
 }
