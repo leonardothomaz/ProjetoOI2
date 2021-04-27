@@ -1,18 +1,12 @@
-import Head from 'next/head'
-import { PrimaryButton } from '../components/PrimaryButton'
+import React from 'react'
+import { Header } from '../components/Header'
+import { Body } from '../components/Body'
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <title>React App</title>
-      </Head>
-
-      <PrimaryButton nome={'Entrar'} />
-    </div>
+    <>
+      <Header />
+      <Body />
+    </>
   )
 }
